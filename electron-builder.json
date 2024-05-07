@@ -52,7 +52,7 @@
       { "from": "./static/engine/win32/${arch}", "to": "./engine"}
     ],
     "target": [
-      { "target": "nsis", "arch": [ "x64", "ia32", "arm64" ] }
+      { "target": "nsis", "arch": [ "x64" ] }
     ]
   },
   "dmg": {
@@ -71,11 +71,11 @@
   },
   "publish": [
     {
-      "owner": "odomu",
+      "owner": "cyao2q",
       "repo": "aliyunpan",
       "provider": "github",
       "publishAutoUpdate": false,
-      "releaseType": "draft"
+      "releaseType": "prerelease"
     }
   ]
 }
